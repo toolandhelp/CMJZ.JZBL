@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMJZ.JZBL.Application.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CMJZ.JZBL.Application.Api.Controllers.WeatherForecastController">
+            <summary>
+            天气测试接口
+            </summary>
+        </member>
+        <member name="M:CMJZ.JZBL.Application.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMJZ.JZBL.Application.Api.Controllers.WeatherForecastController.test">
+            <summary>
+            测试
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
