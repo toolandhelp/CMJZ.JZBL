@@ -30,8 +30,8 @@ namespace CMJZ.JZBL.Util.Common.Setups
                     });
                     c.OrderActionsBy(o => o.RelativePath);
 
-                    //var xmlPath = Path.Combine(basePath, $"{ApiName}.Application.Api.xml");//CMJZ.JZBL.Application.Api.xml文件名 ,生产环境需要拷贝到根目类
-                    var xmlPath = Path.Combine(basePath, $"CMJZ.JZBL.Application.Api.xml");//CMJZ.JZBL.Application.Api.xml文件名 ,生产环境需要拷贝到根目类
+                    var xmlPath = Path.Combine(basePath, $"{ApiName}.Application.Api.xml");//CMJZ.JZBL.Application.Api.xml文件名 ,生产环境需要拷贝到根目类
+                    //var xmlPath = Path.Combine(basePath, $"CMJZ.JZBL.Application.Api.xml");//CMJZ.JZBL.Application.Api.xml文件名 ,生产环境需要拷贝到根目类
                     c.IncludeXmlComments(xmlPath, true);//默认的第二个参数是false，这个是controller的注释，不然没有用
                 });
 
