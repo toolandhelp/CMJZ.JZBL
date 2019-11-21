@@ -13,6 +13,11 @@ namespace CMJZ.JZBL.Application.Api
     {
         public static void Main(string[] args)
         {
+            /****************************************************************************************/
+            /*      Study By Blog.Core
+            /*                        Ty By LaoZhang (https://www.cnblogs.com/laozhang-is-phi/)
+            /****************************************************************************************/
+
             CreateHostBuilder(args).Build().Run();
         }
 
